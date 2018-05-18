@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>NewApplication</title>
+    <title>Cryto currency portfolio</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -9,6 +9,11 @@
   </head>
 
   <body>
+    <!-- insert nav bar here this will be displayed across all webpages(keep in mind this has to be above the yield section) -->
+    <%= render 'home/navbar'  %>
+
+
+
     <%= yield %>
   </body>
 </html>
